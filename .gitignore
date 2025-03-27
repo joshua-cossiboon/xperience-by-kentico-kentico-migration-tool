@@ -8,3 +8,5 @@ appsettings.local.json
 .vs/
 *.sln.DotSettings.user
 Migration.Tool.CLI/appsettings.local.json_
+.github/
+.vscode/

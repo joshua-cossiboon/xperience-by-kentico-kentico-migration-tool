@@ -34,6 +34,7 @@ public class Kx13FormControls
         public const string CustomTableSelector = "CustomTableSelector";
         public const string Selectcolumns = "selectcolumns";
         public const string DepartmentSelector = "DepartmentSelector";
+        public const string DirectUploadControl = "DirectUploadControl";
         public const string DropDownListControl = "DropDownListControl";
         public const string DueDateSelector = "Due_date_selector";
         public const string Emailinput = "emailinput";

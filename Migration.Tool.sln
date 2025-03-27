@@ -42,6 +42,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Migration.Tool.Source", "KV
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Migration.Tool.Extensions", "Migration.Tool.Extensions\Migration.Tool.Extensions.csproj", "{2D2E8533-2C17-471F-BB9F-04DEEDE7F80B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Americaneagle.Toolkit.Customization", "Americaneagle.Toolkit.Customization\Americaneagle.Toolkit.Customization.csproj", "{DAD21C3A-6F16-4BFD-A900-E9B217B8D77F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -100,6 +102,10 @@ Global
 		{2D2E8533-2C17-471F-BB9F-04DEEDE7F80B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2D2E8533-2C17-471F-BB9F-04DEEDE7F80B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2D2E8533-2C17-471F-BB9F-04DEEDE7F80B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAD21C3A-6F16-4BFD-A900-E9B217B8D77F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAD21C3A-6F16-4BFD-A900-E9B217B8D77F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAD21C3A-6F16-4BFD-A900-E9B217B8D77F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAD21C3A-6F16-4BFD-A900-E9B217B8D77F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

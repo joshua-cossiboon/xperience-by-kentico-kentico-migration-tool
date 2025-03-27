@@ -110,7 +110,10 @@ services
 
 
 services.UseKsToolCore(settings.MigrateMediaToMediaLibrary);
-services.UseCustomizations();
+//services.UseCustomizations();
+
+// Use Accelerator Customizations, not toolkit default customizations
+services.UseAceleratorCustomizations();
 
 await using var conn = new SqlConnection(settings.KxConnectionString);
 try

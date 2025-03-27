@@ -5,6 +5,7 @@
     </PropertyGroup>
 
     <ItemGroup>
+        <ProjectReference Include="..\Americaneagle.Toolkit.Customization\Americaneagle.Toolkit.Customization.csproj" />
         <ProjectReference Include="..\KVA\Migration.Tool.Source\Migration.Tool.Source.csproj" />
         <ProjectReference Include="..\Migration.Tool.Extensions\Migration.Tool.Extensions.csproj" />
         <ProjectReference Include="..\Migration.Tool.Common\Migration.Tool.Common.csproj" />
