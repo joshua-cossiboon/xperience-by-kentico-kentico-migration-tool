@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "Migration.Tool.CLI": {
+      "commandName": "Project",
+      "commandLineArgs": "migrate --sites --custom-modules --users --settings-keys --page-types --pages --attachments --contact-management --forms --media-libraries --data-protection --countries --custom-tables --members --categories",
+      //"commandLineArgs": "migrate --sites --custom-modules --users --settings-keys --page-types --pages --attachments --contact-management --forms --media-libraries --data-protection --countries --custom-tables --members --categories"
+    }
+  }
+}
