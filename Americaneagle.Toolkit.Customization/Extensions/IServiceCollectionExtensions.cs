@@ -13,10 +13,10 @@ public static class IServiceCollectionExtensions
     private const int FolderMaxLength = 50;
     private const int ItemMaxLength = 100;
 
-    public static IServiceCollection UseAceleratorCustomizations(this IServiceCollection services)
+    public static IServiceCollection UseAcceleratorCustomizations(this IServiceCollection services)
     {
-        services.AddSingleton<IAssetFacade, AmericaneagleAssetFacade>();
-        services.AddTransient<IFieldMigration, AmericaneagleAssetMigration>();
+        // services.AddSingleton<IAssetFacade, AmericaneagleAssetFacade>();
+        // services.AddTransient<IFieldMigration, AmericaneagleAssetMigration>();
 
         RegisterEventHandlers();
 

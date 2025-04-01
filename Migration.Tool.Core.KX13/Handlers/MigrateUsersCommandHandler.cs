@@ -44,7 +44,8 @@ public class MigrateUsersCommandHandler(
             protocol.FetchedSource(kx13User);
             logger.LogTrace("Migrating user {UserName} with UserGuid {UserGuid}", kx13User.UserName, kx13User.UserGuid);
 
-            var xbkUserInfo = UserInfoProvider.ProviderObject.Get(kx13User.UserGuid);
+            //CUSTOMIZATION: This links source and target users by username, instead of guid.
+            var xbkUserInfo = UserInfoProvider.ProviderObject.Get(kx13User.UserName);
 
             protocol.FetchedTarget(xbkUserInfo);
 
@@ -66,6 +67,13 @@ public class MigrateUsersCommandHandler(
                 }
 
                 continue;
+            }
+
+            //CUSTOMIZATION: if the user is missing an email addres, create one, since email address is required in XBK
+            if (string.IsNullOrEmpty(kx13User.Email))
+            {
+                //for internal users, add an email address
+                kx13User.Email = kx13User.UserName.ToLower() + "@americaneagle.com";
             }
 
             var mapped = userInfoMapper.Map(kx13User, xbkUserInfo);

@@ -7,10 +7,6 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="ClassMapping\" />
-    </ItemGroup>
-
-    <ItemGroup>
       <ProjectReference Include="..\KVA\Migration.Tool.Source\Migration.Tool.Source.csproj" />
       <ProjectReference Include="..\Migration.Tool.Common\Migration.Tool.Common.csproj" />
       <ProjectReference Include="..\Migration.Tool.KXP.Api\Migration.Tool.KXP.Api.csproj" />

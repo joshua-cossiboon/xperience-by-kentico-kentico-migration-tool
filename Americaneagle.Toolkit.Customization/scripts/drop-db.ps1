@@ -1,6 +1,6 @@
 # Parameters
-[string]$DatabaseName = "" # Name of the database to drop
-[string]$SqlServerInstance = ""    # SQL Server instance name
+[string]$DatabaseName = "__migration_xbk_accelerator_dev" # Name of the database to drop
+[string]$SqlServerInstance = "DP-1WS525\MSSQL16_DEV_2022"    # SQL Server instance name
 
 
 # Import SQL Server module if not already loaded
